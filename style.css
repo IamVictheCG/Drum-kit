@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+}
+
+.keys {
+  background-color: rgb(44, 39, 39);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: rgb(255, 241, 241) 2px solid;
+}
+.keys .key {
+  color: white;
+  width: 30px;
+  height: 30px;
+  border: white 2px solid;
+}/*# sourceMappingURL=style.css.map */
