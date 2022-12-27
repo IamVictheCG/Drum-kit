@@ -4,17 +4,48 @@ body {
 
 .keys {
     background-color: rgb(44, 39, 39);
-    width: 100%;
+    width: 90%;
+    height: 20vh;
+    margin: auto;
+    margin-top: calc(50vh - 30px);
     display: flex;
+    align-items: center;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     // gap: 10px;
-    border: rgb(255, 241, 241) 2px solid;
-
+    // border: rgb(255, 241, 241) 2px solid;
+    
     .key {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
         color: white;
-        width: 30px;
-        height: 30px;
-        border: white 2px solid;
-    }
+        width: 60px;
+        height: 60px;
+        border: white 5px solid;
+
+        .kbd {
+            font-size: 32px;
+        }
+
+        span {
+            color: blue;
+        }
+    }    
+}
+
+// .key:hover {
+//     border: rgb(175, 74, 74) 2px solid;
+//     background-color: white;
+//     color: rgb(255, 81, 0);
+//     transition: 0.5s;
+//     transform: scale(1);
+// }
+
+.playing {
+    border-color: rgb(0, 17, 255) !important;
+    // color: rgb(27, 35, 75) !important;
+    transform: scale(1.3);
+    transition:all 0.081s;
 }
