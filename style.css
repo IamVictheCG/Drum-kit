@@ -1,4 +1,6 @@
 body {
+  background-image: url(Drums-2.jpeg);
+  background-size: cover;
   background-color: black;
 }
 
@@ -6,6 +8,7 @@ body {
   background-color: rgb(44, 39, 39);
   width: 90%;
   height: 20vh;
+  opacity: 0.97;
   margin: auto;
   margin-top: calc(50vh - 30px);
   display: flex;
@@ -36,17 +39,17 @@ body {
   transition: all 0.081s;
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 600px) {
   body {
     height: 100vh;
     margin: 0;
   }
   .keys {
-    top: 0% !important;
-    height: 60vh;
+    height: 70vh;
     margin: 0;
     margin-left: 5%;
-    top: 20vh !important;
+    opacity: 0.97;
+    top: 15vh !important;
     position: absolute;
     display: flex;
     flex-wrap: wrap;
@@ -55,5 +58,7 @@ body {
   }
   .keys .key {
     width: 94px;
+    opacity: 1;
+    background-color: rgb(44, 39, 39);
   }
 }/*# sourceMappingURL=style.css.map */
