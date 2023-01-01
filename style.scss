@@ -49,3 +49,28 @@ body {
     transform: scale(1.3);
     transition:all 0.081s;
 }
+
+@media (max-width: 1600px) {
+    body {
+        // border: 2px solid saddlebrown;
+        height: 100vh;
+        margin: 0;
+    }
+    .keys {
+        // border: 2px solid saddlebrown;
+        top: 0% !important;
+        height: 60vh;
+        margin: 0;
+        margin-left: 5% ;
+        top: 20vh !important;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 50px;
+
+        .key {
+            width: 94px;
+        }
+    }
+}
