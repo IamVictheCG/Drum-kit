@@ -24,6 +24,7 @@ const keys = document.querySelectorAll(".key")
 keys.forEach(key => key.addEventListener("transitionend", removeTransition))
 
 
+//Mobile
 function PlaySound1(e) {
     let code;
     if (e.keyCode) {
@@ -33,7 +34,6 @@ function PlaySound1(e) {
     }
 
     const audio = document.querySelector(`audio[data-key="${code}"]`)
-    //Mobile
     const key = document.querySelector(`.key[data-key="${code}"]`)
     if (!audio) {
        return
