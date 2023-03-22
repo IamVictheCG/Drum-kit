@@ -29,8 +29,8 @@ function PlaySound1(e) {
     if (e.keyCode) {
         code = keyCode
     } else{
-        //Mobile
         code = this.dataset.key
+        //Mobile
     }
 
     const audio = document.querySelector(`audio[data-key="${code}"]`)
