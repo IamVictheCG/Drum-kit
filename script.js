@@ -32,8 +32,8 @@ function PlaySound1(e) {
         code = this.dataset.key
     }
 
-    //Mobile
     const audio = document.querySelector(`audio[data-key="${code}"]`)
+    //Mobile
     const key = document.querySelector(`.key[data-key="${code}"]`)
     if (!audio) {
        return
