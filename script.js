@@ -27,9 +27,9 @@ keys.forEach(key => key.addEventListener("transitionend", removeTransition))
 function PlaySound1(e) {
     let code;
     if (e.keyCode) {
-        //Mobile
         code = keyCode
     } else{
+        //Mobile
         code = this.dataset.key
     }
 
