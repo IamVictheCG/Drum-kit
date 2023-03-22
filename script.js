@@ -26,7 +26,7 @@ keys.forEach(key => key.addEventListener("transitionend", removeTransition))
 
 function PlaySound1(e) {
     let code;
-    //Mobile .kbd
+    //Mobile
     if (e.keyCode) {
         code = keyCode
     } else{
