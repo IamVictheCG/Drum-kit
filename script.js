@@ -26,6 +26,7 @@ keys.forEach(key => key.addEventListener("transitionend", removeTransition))
 
 function PlaySound1(e) {
     let code;
+    //Mobile .kbd
     if (e.keyCode) {
         code = keyCode
     } else{
@@ -43,6 +44,7 @@ function PlaySound1(e) {
     console.log(e)
     console.log(code)
 }
+
 
 const clickKeys = document.querySelectorAll(".key")
 // clickKeys.forEach(key => {
